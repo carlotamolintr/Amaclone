@@ -8,30 +8,39 @@
     z-index: 100;
 }
 
-.header-logo {
+.header__logo {
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
+    margin-top: 15px;
 }
 
-.header-searcher {
+.header__search {
+    vertical-align: top;
+}
+
+.header__searcher {
     display: flex;
     flex: 1; 
     align-items: center;
     border-radius: 30px;
 }
 
-.header-option-one {
+.header__optionOne {
     color: white;
     margin: 0 10px;
 }
 
-.header-option-two {
+.header__optionTwo {
     color: white;
     margin: 0 10px;
 }
 
-.header-option-three {
+.header__optionThree {
     color: white;
     margin: 0 10px;
+}
+
+.header__searchIcon {
+    background-color: #FDAF16;
 }
