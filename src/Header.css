@@ -1,0 +1,37 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+}
+
+.header-searcher {
+    display: flex;
+    flex: 1; 
+    align-items: center;
+    border-radius: 30px;
+}
+
+.header-option-one {
+    color: white;
+    margin: 0 10px;
+}
+
+.header-option-two {
+    color: white;
+    margin: 0 10px;
+}
+
+.header-option-three {
+    color: white;
+    margin: 0 10px;
+}
