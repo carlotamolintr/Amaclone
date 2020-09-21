@@ -1,3 +1,7 @@
+## YOU CAN SEE THE PROJECT HERE (working on it)
+https://react-amaclone.netlify.app/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
