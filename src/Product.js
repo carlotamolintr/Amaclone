@@ -1,15 +1,19 @@
 import React from 'react'
 import './Product.css'
+import StarTwoToneIcon from '@material-ui/icons/StarTwoTone';
 
-function Product() {
+function Product({ title, image, price, rating }) {
     return (
         <div className="product">
             <div className="product__info">
-                <p className="product__title">My first product</p>
-                <span>$</span><span className="product__price">24.97</span>
-                <p>star</p>
+                <p className="product__title"> {title}</p>
+                <span>$</span><span className="product__price">{price}</span>
+
+                <div className="product__rating">
+                    {Array(rating).fill().map((i => (<StarTwoToneIcon className="product__starIcon" />)))}
+                </div>
             </div>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/6182S7MYC2L._AC_UL320_SR320,320_.jpg" alt="" />
+            <img src={image} alt="" />
             <button >Add to basket</button>
         </div>
     )

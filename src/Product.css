@@ -4,7 +4,7 @@
     align-items: center;
     width: 100%;
     justify-content: flex-end;
-    margin: 10px;
+    margin: 15px;
     padding: 20px;
     max-height: 400px;
     min-width: 100px;
@@ -36,4 +36,12 @@
     background: #F4D077;
     border-color: #F4D077;
     border: 1px solid;
+}
+
+.product__starIcon {
+    color: orange;
+}
+
+.product__raiting {
+    display: flex;
 }
