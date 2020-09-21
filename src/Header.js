@@ -10,10 +10,19 @@ function Header() {
                 <input className="header__search" type="text"></input>
                 <SearchIcon className="header__searchIcon"></SearchIcon>
             </div>
-            <div className="header-options">
-                <span className="header__optionOne">Hello Guest</span>
-                <span className="header__optionTwo">Sign in</span>
-                <span className="header__optionThree">Returns</span>
+            <div className="header__nav">
+                <div className="header__options">
+                    <span className="header__optionOne">Hello Guest,</span>
+                    <span className="header__optionOneLineTwo">Sign in</span>
+                </div>
+                <div className="header__options">
+                    <span className="header__optionTwo">Returns</span>
+                    <span className="header__optionTwoLineTwo">& Orders</span>
+                </div>
+                <div className="header__options">
+                    <span className="header__optionThree">Your</span>
+                    <span className="header__optionThreeLineTwo">Prime</span>
+                </div>
             </div>
         </div>
     )

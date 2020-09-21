@@ -17,30 +17,39 @@
 
 .header__search {
     vertical-align: top;
+    width: 100%;
+    border: 0;
 }
 
 .header__searcher {
     display: flex;
     flex: 1; 
-    align-items: center;
     border-radius: 30px;
+    border: none;
+    width: 100%;
 }
 
-.header__optionOne {
-    color: white;
-    margin: 0 10px;
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 10px;
 }
 
-.header__optionTwo {
+.header__options {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
     color: white;
-    margin: 0 10px;
 }
 
-.header__optionThree {
-    color: white;
-    margin: 0 10px;
+.header__optionOneLineTwo, .header__optionTwoLineTwo, .header__optionThreeLineTwo {
+    size: 13px;
+    font-weight: 800;
 }
 
 .header__searchIcon {
     background-color: #FDAF16;
+    height: 21px;
+    padding: 5px;
 }
