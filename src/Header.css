@@ -41,10 +41,12 @@
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+    font-size: 11px;
 }
 
+
 .header__optionOneLineTwo, .header__optionTwoLineTwo, .header__optionThreeLineTwo {
-    size: 13px;
+    font-size: 13px;
     font-weight: 800;
 }
 
@@ -52,4 +54,16 @@
     background-color: #FDAF16;
     height: 21px;
     padding: 5px;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items:center;
+    color: white;
+    margin: 0 10px;
+}
+
+.header__basketCounter {
+    font-weight: 800;
+    margin: 0 10px;
 }
