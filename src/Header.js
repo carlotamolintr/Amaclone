@@ -2,10 +2,12 @@ import React from 'react'
 import "./Header.css"
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import MenuIcon from '@material-ui/icons/Menu';
 
 function Header() {
     return (
         <div className="header">
+            <MenuIcon className="header__menuHamburger"/>
             <img className="header__logo" alt="amaclone" src="https://pngimg.com/uploads/amazon/amazon_PNG25.png" />
             <div className="header__searcher">
                 <input className="header__search" type="text"></input>

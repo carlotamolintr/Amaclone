@@ -8,6 +8,17 @@
     z-index: 100;
 }
 
+.header__menuHamburger {
+    color: white;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 758px) {
+    .header__menuHamburger {
+        display: none;
+    }
+}
+
 .header__logo {
     width: 100px;
     object-fit: contain;
@@ -23,10 +34,16 @@
 
 .header__searcher {
     display: flex;
-    flex: 1; 
+    flex: 1;
     border-radius: 30px;
     border: none;
     width: 100%;
+}
+
+@media only screen and (max-width: 758px) {
+    .header__searcher {
+        display: none;
+    }
 }
 
 .header__nav {
@@ -34,6 +51,13 @@
     justify-content: space-evenly;
     margin: 0px 10px;
 }
+
+@media only screen and (max-width: 758px) {
+    .header__nav {
+        display: none;
+    }
+}
+
 
 .header__options {
     display: flex;
@@ -45,7 +69,9 @@
 }
 
 
-.header__optionOneLineTwo, .header__optionTwoLineTwo, .header__optionThreeLineTwo {
+.header__optionOneLineTwo,
+.header__optionTwoLineTwo,
+.header__optionThreeLineTwo {
     font-size: 13px;
     font-weight: 800;
 }
@@ -58,7 +84,7 @@
 
 .header__optionBasket {
     display: flex;
-    align-items:center;
+    align-items: center;
     color: white;
     margin: 0 10px;
 }

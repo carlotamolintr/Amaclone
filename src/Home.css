@@ -1,13 +1,25 @@
 .home {
- display: flex;
- justify-content:center;
- max-width: 1500px;
- margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .home__container {
     background-color: antiquewhite;
     width: 100%;
+}
+
+@media only screen and (max-width: 758px) {
+    .home__container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 758px) {
+    .home__containerMobile {
+        display: none
+    }
 }
 
 .home__image {
